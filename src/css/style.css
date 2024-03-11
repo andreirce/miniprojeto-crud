@@ -1,0 +1,141 @@
+body {
+    background-color: #18222e;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-container {
+    margin-top: 80px;
+}
+
+.firstname-container, 
+.lastname-container, 
+.email-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 60%
+}
+
+.firstname-container label, 
+.lastname-container label, 
+.email-container label{
+    font-size: 14px;
+    padding: 0 0 0 5px;
+}
+
+.firstname-container input, 
+.lastname-container input,
+.email-container input{
+    outline: none;
+    border: 4px solid transparent;
+    transition: border-color 0.3s ease;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.firstname-container input:focus, 
+.lastname-container input:focus,
+.email-container input:focus {
+    border-color:  #4845fd;
+}
+
+#submit {
+    margin-top: 40px;
+    padding: 10px 50px;
+    background-color: #10a03bd0;
+    color: white;
+    border: none;   
+    border-radius: 10px;
+}
+
+#submit:hover{
+    cursor: pointer;
+}
+
+#submit:active {
+    box-shadow: 0 0 0 0 #01300fd0, inset 3px 3px 3px #01300fd0;
+    transform: translate(2px, 2px);
+    transition: .1s;
+}
+
+.table-container{
+    width: 60%; 
+    margin-top: 50px;
+}
+
+.table{
+    width: 100%;
+}
+
+.thead{
+    background-color: rgb(31, 30, 30);
+}
+
+.tbody{
+    background-color: #333333;
+}
+
+td{
+    padding: 5px 0 10px 10px;
+    
+}
+
+th{
+    text-align: left;
+    padding: 0 0 10px 10px;
+}
+
+
+.btn-edit {
+    background-color: goldenrod;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #000000;
+    font-weight: bold;
+
+}
+
+.btn-edit:active {
+    box-shadow: 0 0 0 0 #725304, inset 3px 3px 3px #725304;
+    transform: translate(2px, 2px);
+    transition: .1s;
+}
+
+.btn-delete {
+    background-color: rgb(236, 36, 36);
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.btn-delete:active {
+    box-shadow: 0 0 0 0 #700303, inset 3px 3px 3px #700303;
+    transform: translate(2px, 2px);
+    transition: .1s;
+}
