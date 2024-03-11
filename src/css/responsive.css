@@ -1,0 +1,49 @@
+@media(max-width:1470px) {
+    .table-container {
+        overflow-x: auto;
+    }
+
+    td {
+        text-align: left;
+    }
+
+    .tdbtn .btn-delete {
+        margin-top: 8px;
+    }
+
+    .thead tr th {
+        padding: 0 10px 5px 10px;
+    }
+
+    .tbody tr td {
+        padding: 0 10px 5px 10px;
+    }
+}
+
+@media(max-width:768px) {
+    .table-container {
+        width: 80%;
+    }
+
+    .firstname-container {
+        width: 80%;
+    }
+
+    .lastname-container {
+        width: 80%;
+    }
+
+    .email-container {
+        width: 80%;
+    }
+}
+
+@media(max-width:450px) {
+    #submit {
+        padding: 8px 40px;
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
+}
