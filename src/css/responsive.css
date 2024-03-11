@@ -46,4 +46,20 @@
     .title {
         font-size: 1.8rem;
     }
+
+    .table-container {
+        width: 90%;
+    }
+
+    .firstname-container {
+        width: 90%;
+    }
+
+    .lastname-container {
+        width: 90%;
+    }
+
+    .email-container {
+        width: 90%;
+    }
 }
